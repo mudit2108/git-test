@@ -26,11 +26,13 @@ To finally add these files to your repository, first link them using: use git re
 
 Finally push the files to the master branch:
     git push origin master
-
+(Provide username and password at the prompt)
 
 To push a 2nd file to the repo, for example the file commands_used:
     emacs commands_used (Edit and Save the file)
     git add .
     git commit -m 'Second commit, added file commands_used'
-    git push
+    git push --set-upstream origin master
+(Provide username and password)
+
     
