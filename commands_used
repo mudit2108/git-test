@@ -32,7 +32,7 @@ To push a 2nd file to the repo, for example the file commands_used:
     emacs commands_used (Edit and Save the file)
     git add .
     git commit -m 'Second commit, added file commands_used'
-    git push --set-upstream origin master
+    git push origin master
 (Provide username and password)
 
     
